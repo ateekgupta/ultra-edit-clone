@@ -1,0 +1,144 @@
+.logo {}
+
+.logo img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.para {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.p2{
+    font-size: 23px;
+    width: 44vw;
+    text-align: center;
+}
+
+.p1{
+    
+    font-size: 50px;
+}
+
+.para button {
+    background-color: #00b6d1;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 48px;
+    min-width: 256px;
+    padding: 12px 20px !important;
+    cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.para2{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 334px;
+    gap: 30px;
+    font-size: large;
+    
+}
+.small{
+    font-size: small;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:12px;
+}
+.btn{
+    font-size: 12px;
+    padding: 8px 15px !important;
+    min-height: 10px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.green{
+    background-color: #5cb85c;
+}
+.blue{
+    background-color: #00b6d1;
+}
+.item{
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.item-lang1{
+    min-height: 64px;
+    padding-bottom: 30px !important;
+    
+}
+.item-lang2{
+    min-height: 61px;
+    padding-bottom: 12px !important;
+    font-size: 60%;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+.flex :nth-child(2){
+    
+    font-size: 24px;
+}
+.flex :nth-child(3){
+    font-size: 60%;
+    
+    
+}
+.flex img{
+    border-radius: 100%;
+    border: 2px solid black;
+    
+}
+@media screen and (max-width: 1145px) {
+    .grid{
+        
+        grid-template-columns: 1fr;
+        
+    }
+}
